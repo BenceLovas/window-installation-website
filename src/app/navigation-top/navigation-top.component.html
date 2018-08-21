@@ -1,0 +1,6 @@
+<div id="navigation">
+  <button mat-button *ngFor="let menu of menus" routerLink="{{ menu.link }}" routerLinkActive="active">
+    <span>{{ menu.label }}</span>
+  </button>
+</div>
+<router-outlet></router-outlet>

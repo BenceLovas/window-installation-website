@@ -1,0 +1,17 @@
+@import '~@angular/material/theming';
+@import '../../theme.scss';
+
+:host {
+  display: block;
+  margin-top: 62px;
+}
+
+#title {
+  width: 100%;
+  padding: 1.4em 2em;
+  background-color: mat-color($app-primary);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}

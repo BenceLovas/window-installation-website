@@ -1,0 +1,24 @@
+@import '~@angular/material/theming';
+@import '../../theme.scss';
+
+#navigation {
+  width: 100%;
+  height: 37px;
+  padding: 15px 50px 10px 50px;
+  background-color: mat-color($app-primary);
+  position: fixed;
+  top: 0;
+  -webkit-box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.8);
+}
+
+span {
+  font-weight: 700;
+  color: white;
+  padding: 1em 0.6em;
+}
+
+.active {
+  background-color: mat-color($app-primary, 700);
+}
