@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageShutterComponent } from './page-shutter.component';
+import { PageShadeComponent } from './page-shade.component';
 
-describe('PageShutterComponent', () => {
-  let component: PageShutterComponent;
-  let fixture: ComponentFixture<PageShutterComponent>;
+describe('PageShadeComponent', () => {
+  let component: PageShadeComponent;
+  let fixture: ComponentFixture<PageShadeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PageShutterComponent ]
+      declarations: [ PageShadeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PageShutterComponent);
+    fixture = TestBed.createComponent(PageShadeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -11,7 +11,7 @@ export class NavigationTopComponent implements OnInit {
     { label: 'Kezdőlap', link: '/home' },
     { label: 'Ablakok', link: '/window' },
     { label: 'Ajtók', link: '/door' },
-    { label: 'Árnyékolástechnika', link: '/shutter' },
+    { label: 'Árnyékolástechnika', link: '/shade' },
     { label: 'Kapcsolat', link: '/contact' },
   ];
 
