@@ -1,3 +1,19 @@
 <div id="title">
   <span>Ablakok</span>
 </div>
+
+<div id="main">
+  <div id="side">
+    <div id="side-wrapper">
+      <mat-expansion-panel class="mat-elevation-z0" *ngFor="let nav of sideNav">
+        <mat-expansion-panel-header>
+          <mat-panel-title class="text-bold">
+            {{ nav.title }}
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <button mat-button *ngFor="let brand of nav.brands">{{ brand }}</button>
+      </mat-expansion-panel>
+    </div>
+  </div>
+</div>

@@ -2,15 +2,83 @@
 @import '../../theme.scss';
 
 :host {
-  display: block;
-  margin-top: 62px;
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+  max-height: 100%;
 }
 
 #title {
+  margin-top: 62px;
   padding: 1.4em 2em;
   background-color: mat-color($app-primary);
   color: white;
   font-size: 1.2rem;
   font-weight: 300;
   letter-spacing: 0.05em;
+  -webkit-box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.8);
+  position: relative;
+  z-index: 2;
 }
+
+button {
+  display: block;
+}
+
+#main {
+  display: grid;
+  height: 100%;
+  padding: 0 4px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: minmax(100px, 1fr);
+  grid-template-areas:
+    "side content";
+
+  #side {
+    grid-area: side;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+    #side-wrapper {
+      position: absolute;
+      margin-bottom: 10px;
+      top: 10px;
+      left: 0;
+      right: 0;
+      max-height: 100%;
+      overflow: auto;
+
+      /* width */
+      &::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      /* Track */
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+
+      mat-expansion-panel {
+        margin-left: 20px;
+        border-bottom: 1px solid #cacaca;
+      }
+
+      mat-expansion-panel:last-of-type {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+

@@ -10,4 +10,10 @@
 
 html, body {
   background-color: mat-color($app-accent, 900);
+  height: 100%;
+  overflow: hidden;
+}
+
+.text-bold {
+  font-weight: 700;
 }

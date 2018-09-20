@@ -7,6 +7,57 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageWindowComponent implements OnInit {
 
+  sideNav = [
+    {
+      title: '2 Rétegű',
+      brands: [
+        'Ovlo',
+        'Decco 71',
+        'Gealan',
+
+      ]
+    },
+    {
+      title: '3 Rétegű',
+      brands: [
+        'Encore',
+        'Prime',
+      ]
+    },
+    {
+      title: '2 Rétegű',
+      brands: [
+        'Ovlo',
+        'Decco 71',
+        'Gealan',
+
+      ]
+    },
+    {
+      title: '3 Rétegű',
+      brands: [
+        'Encore',
+        'Prime',
+      ]
+    },
+    {
+      title: '2 Rétegű',
+      brands: [
+        'Ovlo',
+        'Decco 71',
+        'Gealan',
+
+      ]
+    },
+    {
+      title: '3 Rétegű',
+      brands: [
+        'Encore',
+        'Prime',
+      ]
+    }
+  ];
+
   constructor() { }
 
   ngOnInit() {
