@@ -11,51 +11,18 @@ export class PageWindowComponent implements OnInit {
     {
       title: '2 Rétegű',
       brands: [
-        'Ovlo',
-        'Decco 71',
-        'Gealan',
-
+        { name: 'Decco 71', link: 'ovlo-2' },
+        { name: 'Gealan', link: 'ovlo-2' },
+        { name: 'Ovlo', link: 'ovlo-2' },
       ]
     },
     {
       title: '3 Rétegű',
       brands: [
-        'Encore',
-        'Prime',
+        { name: 'Encore', link: 'ovlo-3' },
+        { name: 'Prime', link: 'ovlo-3' },
       ]
     },
-    {
-      title: '2 Rétegű',
-      brands: [
-        'Ovlo',
-        'Decco 71',
-        'Gealan',
-
-      ]
-    },
-    {
-      title: '3 Rétegű',
-      brands: [
-        'Encore',
-        'Prime',
-      ]
-    },
-    {
-      title: '2 Rétegű',
-      brands: [
-        'Ovlo',
-        'Decco 71',
-        'Gealan',
-
-      ]
-    },
-    {
-      title: '3 Rétegű',
-      brands: [
-        'Encore',
-        'Prime',
-      ]
-    }
   ];
 
   constructor() { }

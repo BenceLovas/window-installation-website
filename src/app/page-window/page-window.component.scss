@@ -35,6 +35,10 @@ button {
   grid-template-areas:
     "side content";
 
+  #content {
+    grid-area: content;
+  }
+
   #side {
     grid-area: side;
     background-color: white;

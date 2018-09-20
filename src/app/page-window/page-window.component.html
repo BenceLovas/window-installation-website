@@ -12,8 +12,11 @@
           </mat-panel-title>
         </mat-expansion-panel-header>
 
-        <button mat-button *ngFor="let brand of nav.brands">{{ brand }}</button>
+        <button mat-button routerLink="{{ brand.link }}" *ngFor="let brand of nav.brands">{{ brand.name }}</button>
       </mat-expansion-panel>
     </div>
+  </div>
+  <div id="content">
+    <router-outlet></router-outlet>
   </div>
 </div>
