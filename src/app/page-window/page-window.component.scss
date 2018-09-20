@@ -10,7 +10,7 @@
 #title {
   margin-top: 62px;
   padding: 1.4em 2em;
-  background-color: mat-color($app-primary);
+  background-color: mat-color($app-primary, 700);
   color: white;
   font-size: 1.2rem;
   font-weight: 300;
@@ -29,7 +29,6 @@ button {
 #main {
   display: grid;
   height: 100%;
-  padding: 0 4px;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: minmax(100px, 1fr);
   grid-template-areas:
