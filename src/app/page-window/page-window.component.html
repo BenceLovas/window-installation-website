@@ -5,7 +5,7 @@
 <div id="main">
   <div id="side">
     <div id="side-wrapper">
-      <mat-expansion-panel class="mat-elevation-z0" *ngFor="let nav of sideNav">
+      <mat-expansion-panel class="mat-elevation-z0" [expanded]="true" *ngFor="let nav of sideNav">
         <mat-expansion-panel-header>
           <mat-panel-title class="text-bold">
             {{ nav.title }}
