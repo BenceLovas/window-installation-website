@@ -11,16 +11,16 @@ export class PageWindowComponent implements OnInit {
     {
       title: '2 Rétegű',
       brands: [
-        { name: 'Decco 71', link: 'ovlo-2' },
-        { name: 'Gealan', link: 'ovlo-2' },
+        { name: 'Decco 71', link: 'decco71-2' },
+        { name: 'Gealan', link: 'gealan-2' },
         { name: 'Ovlo', link: 'ovlo-2' },
       ]
     },
     {
       title: '3 Rétegű',
       brands: [
-        { name: 'Encore', link: 'ovlo-3' },
-        { name: 'Prime', link: 'ovlo-3' },
+        { name: 'Encore', link: 'encore-3' },
+        { name: 'Prime', link: 'prime-3' },
       ]
     },
   ];

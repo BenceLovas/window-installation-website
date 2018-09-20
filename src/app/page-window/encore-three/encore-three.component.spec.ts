@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OvloComponent } from './ovlo.component';
+import { EncoreThreeComponent } from './encore-three.component';
 
-describe('OvloComponent', () => {
-  let component: OvloComponent;
-  let fixture: ComponentFixture<OvloComponent>;
+describe('EncoreThreeComponent', () => {
+  let component: EncoreThreeComponent;
+  let fixture: ComponentFixture<EncoreThreeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OvloComponent ]
+      declarations: [ EncoreThreeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OvloComponent);
+    fixture = TestBed.createComponent(EncoreThreeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
