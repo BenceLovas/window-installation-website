@@ -11,6 +11,11 @@ import { NavigationTopComponent } from './navigation-top/navigation-top.componen
 import { PageDoorComponent } from './page-door/page-door.component';
 import { PageContactComponent } from './page-contact/page-contact.component';
 import { PageShadeComponent } from './page-shade/page-shade.component';
+import { GealanTwoComponent } from './page-window/gealan-two/gealan-two.component';
+import { OvloTwoComponent } from './page-window/ovlo-two/ovlo-two.component';
+import { Decco71TwoComponent } from './page-window/decco71-two/decco71-two.component';
+import { EncoreThreeComponent } from './page-window/encore-three/encore-three.component';
+import { PrimeThreeComponent } from './page-window/prime-three/prime-three.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +26,11 @@ import { PageShadeComponent } from './page-shade/page-shade.component';
     PageDoorComponent,
     PageContactComponent,
     PageShadeComponent,
+    GealanTwoComponent,
+    OvloTwoComponent,
+    Decco71TwoComponent,
+    EncoreThreeComponent,
+    PrimeThreeComponent,
   ],
   imports: [
     BrowserModule,
