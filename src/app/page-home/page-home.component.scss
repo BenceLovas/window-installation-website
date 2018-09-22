@@ -123,6 +123,10 @@ button {
   margin: 0 10px;
 }
 
+button:hover {
+  background-color: mat-color($app-primary, 900) !important;
+}
+
 .logo {
   position: relative;
   top: 7px;
