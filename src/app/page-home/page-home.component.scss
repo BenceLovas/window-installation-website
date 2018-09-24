@@ -4,7 +4,6 @@
 :host {
   display: grid;
   grid-template-rows: 15vh 40vh 35vh minmax(10vh, auto);
-  //max-height: 100%;
 }
 
 #title {
@@ -56,19 +55,11 @@
     color: white;
     padding: 10px;
     position: relative;
-    //border-right: 2px solid black;
-    //border-top-left-radius: 10px;
-    //border-bottom-left-radius: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
   }
 
-  mat-icon:before {
-    content: '';
-    position: absolute;
-    top: 0; right: 0;
-    border-top: 12px solid white;
-    border-left: 12px solid mat-color($app-primary);
-    width: 0;
-  }
 }
 
 .text {
