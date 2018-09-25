@@ -2,8 +2,12 @@
 @import '../../theme.scss';
 
 :host {
+  height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-rows: 15vh 40vh 35vh minmax(10vh, auto);
+  margin: 0 auto;
+  grid-template-rows: 15fr 40fr 35fr 10fr;
+  grid-template-columns: 1fr;
 }
 
 #title {
