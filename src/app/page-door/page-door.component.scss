@@ -10,3 +10,12 @@
   font-weight: 300;
   letter-spacing: 0.05em;
 }
+
+.sidenav {
+  width: 90vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999999;
+}

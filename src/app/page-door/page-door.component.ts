@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageDoorComponent implements OnInit {
 
+  events: string[] = [];
+  opened = true;
+
   constructor() { }
 
   ngOnInit() {
